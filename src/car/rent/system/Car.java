@@ -1,10 +1,10 @@
 package car.rent.system;
 
 public class Car{
-	private String name;  //¶¨Òåname±äÁ¿
-	private int rent;     //¶¨Òårent±äÁ¿
-	private int capability;   //¶¨ÒåCapability ±äÁ¿
-	private int carNumberBuy = 0; //¶¨ÒåcarNumberBuy±äÁ¿
+	private String name;  //å®šä¹‰nameå˜é‡
+	private int rent;     //å®šä¹‰rentå˜é‡
+	private int capability;   //å®šä¹‰Capability å˜é‡
+	private int carNumberBuy = 0; //å®šä¹‰carNumberBuyå˜é‡
 
 	public Car(String name,int rent,int capability){
 		this.name = name;
@@ -12,7 +12,7 @@ public class Car{
 		this.capability = capability;
 	}
 	public void showCarInfo(){
-		System.out.print(name + "\t" + rent + "Ôª/Ìì   ");
+		System.out.print(name + "\t" + rent + "å…ƒ/å¤©   ");
 	}
 	public int getCapability() {
 		return capability;
@@ -29,6 +29,7 @@ public class Car{
 	public String getName() {
 		return name;
 	}	
-	
+
+//add some modify	
 	
 }
